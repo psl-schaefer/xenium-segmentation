@@ -38,7 +38,8 @@ process getNumberOfTranscripts {
 
 process runBaysor {
     //container 'docker://maximilianheeg/baysor:v0.6.2'
-    container 'docker://vpetukhov/baysor:v0.7.0'
+    //container 'docker://vpetukhov/baysor:v0.7.0'
+    container 'docker://psls1998/baysor:v0.7.1'
     cpus 8
     // Calcutelate the required memory dynamically based on the number of transcripts
     // These values are estimates from the benchmarking that I did.
